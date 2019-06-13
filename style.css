@@ -5,37 +5,37 @@ html {
 body {
   background-image: url("images/landscape.jpg");
   background-size: cover;
-  background-color: rgba(34,40,49,10);
-  color: white;
-  font-family: 'Lora', serif;
-  font-size: 17px;
+  background-color: rgb(34,40,49);
+  color:white;
   font-weight: lighter;
   padding: 10px;
   height: 100vh;
   overflow: scroll;
 }
-h1, h2, h3 {
+
+h1, h3 {
   font-family: 'Roboto', sans-serif;
+  color: rgb(180,180,180);
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 700;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  color: white;
 }
 
-h1 {
-  color: #575F7D;
-  font-size: 32px;
-  font-weight: 900;
-}
-
-h2 {
-  color: #575F7D;
-  font-size: 20px;
-  font-weight: lighter;
-  font-weight: 500;
-}
 
 a {
   font-family: 'Roboto', sans-serif;
@@ -69,13 +69,12 @@ a:hover {
 }
 
 .card-white {
-    background-color: #393e46;
+    background-color: rgba(57,62,70,0.8);
     padding: 40px;
-    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0px 20px 30px rgba(0,0,10,.5);
     border-radius: 4px;
     margin: 20px 0px;
     text-align: center;
-    opacity: 0.8;
 }
 
 .card-white h2, h3 {
